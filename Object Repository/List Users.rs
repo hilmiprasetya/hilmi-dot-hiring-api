@@ -54,7 +54,7 @@ def endTime = System.currentTimeMillis()
 // Calculate response time in milliseconds
 def responseTime = endTime - startTime
 
-// Define your expected response time threshold (in milliseconds)
+// Define expected response time threshold (in milliseconds)
 def expectedResponseTime = 10
 
 // Assert that the response time is within the expected threshold
